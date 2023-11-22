@@ -19,17 +19,9 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 #include <HardwareSerial.h>
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&Serial2);
 
-//credenciales Wifi Casa:
-//const char* ssid = "MIWIFI_JY4A";
-//const char* passwordwifi = "JxGDEpGt";
-
 //credenciales Wifi Colegio:
 const char* ssid = "B04";
 const char* passwordwifi = "tirantb04_2022";
-
-//credenciales Wifi del mobil:
-//const char* ssid = "RedNeko";
-//const char* passwordwifi = "198500Ab";
 
 // Configuración del servidor NTP
 const char* ntpServer = "time.google.com";
